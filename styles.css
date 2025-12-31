@@ -39,11 +39,12 @@ body {
     height: 90px;
     border-radius: 50%;
     box-shadow: 1px 1px 5px hsl(75, 94%, 57%);
+    transition: 0.40s ease;
 }
 
 /* ===== Text ===== */
-h5 {
-    color: hsl(75, 94%, 57%);
+.location{
+    color: hsl(75, 94%, 45%);
 }
 
 p {
@@ -58,20 +59,24 @@ p {
     align-items: center;
 
     width: 100%;
-    padding: 0.7rem;
+    padding: 0.8rem;
 
     background: hsl(0, 0%, 20%);
     color: whitesmoke;
     text-decoration: none;
 
-    border-radius: 6px;
-    transition: 0.25s ease;
+    border-radius: 8px;
+    transition: 0.40s ease;
     cursor: pointer;
 }
 
 .profile a:hover {
-    background: hsl(75, 32%, 48%);
-    transform: scale(1.05);
+    background: hsl(75, 94%, 45%);
+    transform: scale(1.1);
+}
+.profile .photo:hover{
+    transform: scale(1.1);
+
 }
 
 /* ===== Attribution ===== */
