@@ -33,7 +33,7 @@ body{
     gap: 0.5rem;
     padding:35% 4% 35% 4%;
     border-radius: 10px;
-    background: hsl(0, 0%,13%);
+    background: hsl(0, 0%,15%);
     margin: 20% 0 20% 0;
 
    
@@ -63,7 +63,7 @@ body{
 }
 .job{
     color:#cfcece;
-    background: hsl(0, 0%, 13%);
+    background: hsl(0, 0%, 15%);
     font-size: 0.8rem;
     margin-top: 1rem;
     margin-bottom:0.5rem;
