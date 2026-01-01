@@ -1,4 +1,4 @@
 # social-links-profile
-Responsive social links profile built with HTML, CSS, Flexbox, and Google Fonts.
+Responsive social links profile built with HTML, CSS, Grid , Flexbox, and Google Fonts.
 
-![alt text](image.png)
+![social links profile](image-2.png)

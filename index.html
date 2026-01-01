@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="Mohamed Ali social links showcasing front-end projects, responsive design, accessibility best practices, and modern HTML and CSS.">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"> 
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
 
   
   <title>Frontend Mentor | Social links profile</title>
@@ -18,25 +19,29 @@
   </style>
 </head>
 <body>
+  <header></header>
   <main>
     <section>
       <div class="profile">
-        <img src="assets/images/avatar-jessica.jpeg" alt="Jessica Randall photo" class="photo">
-        <h1>Jessica Randall</h1>
+        <img src="assets/images/avatar-jessica.jpeg" alt="Jessica Randall photo" class="photo" width="300" height="300" fetchpriority="high">
+        <p class="name" aria-label="Name: Jessica Randall">Jessica Randall</p>
         <p class="location">London, United Kingdom</p>
-        <p><q>Front end developer and avid reader</q></p>
-        <a href="#" target="_blank">GitHub</a>
-        <a href="#" target="_blank">Frontend Mentor</a>
-        <a href="#" target="_blank">LinkedIn</a>
-        <a href="#" target="_blank">Twitter</a>
-        <a href="#" target="_blank">Instagram</a>
+        <p class="job"><q>Front end developer and avid reader</q></p>
+        <a class="class-link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="class-link" href="#" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>
+        <a class="class-link" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="class-link" href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a class="class-link" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
       </div>
     </section>
-     <section>
+  </main>
+
+  <footer>
+    <section>
       <div class="attribution">
-        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> .Coded by <a href="#">Mohamed Ali</a></p>
+        <p>Challenge by <a class="bottom-links" href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a> Coded by <a href="https://www.linkedin.com/in/muhammed-ali-322470314" title="Visit Mohamed on LinkedIn"> Mohamed Ali</a></p>
     </div>
     </section>
-  </main>
+  </footer>
 </body>
 </html>

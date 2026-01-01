@@ -1,0 +1,121 @@
+/* ===== reset ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    min-width: 100dvw;
+    font-family:'Inter', Arial, Helvetica, sans-serif ;
+    src: url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-display: swap;
+    font-size: small;
+    background-color: hsl(0, 0%, 5%);
+    color: whitesmoke;
+    padding: clamp(1rem,4vw,2rem);
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:375px;
+    height:620px;
+    gap: 0.5rem;
+    padding:35% 4% 35% 4%;
+    border-radius: 10px;
+    background: hsl(0, 0%,13%);
+    margin: 20% 0 20% 0;
+
+   
+}
+.photo{
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    box-shadow: 1px 1px 6px hsl(75, 94%, 45%) ;
+    transition: 0.5 ease-in-out;
+    margin-top: 1rem;
+}
+.photo:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 6px darksalmon;
+    cursor: pointer;
+
+}
+.name{
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+
+.location{
+    color: hsl(75, 94%, 45%);
+    font-size: 0.8rem;
+}
+.job{
+    color:#cfcece;
+    background: hsl(0, 0%, 13%);
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom:0.5rem;
+}
+
+.class-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0.9rem;
+    width: 85%;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    background: hsl(0, 0%, 20%);
+    transition:0.25s ease-in-out;
+    
+}
+
+.class-link:hover{
+    background: hsl(75, 94%, 45%);
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.attribution p a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: dodgerblue;
+}
+.attribution a:hover{
+    color:lightblue;
+}
+
+
+
+
+@media screen and (max-width:412px) {
+    .profile {
+        padding: clamp(0.5rem, 2vh, 1rem);
+        width: 320px;
+        height:auto;
+    }
+}
+
+
